@@ -12,8 +12,7 @@ public class Main {
 		Leitor leitor2 = new Leitor("Newmann", livro2);
 		Leitor leitor3 = new Leitor("Ada", livro5);
 		
-		leitor1.adicionarLivro(livro2);
-		leitor1.toString();
+		System.out.println(leitor1.toString());
 
 	}
 

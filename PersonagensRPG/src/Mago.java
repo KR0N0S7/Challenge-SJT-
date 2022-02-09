@@ -28,7 +28,7 @@ public class Mago extends Personagens {
 	public int attack() {
 		Random numAleatorio = new Random();
 		int num = 180;
-		int numRandom = numAleatorio.nextInt(num);
+		int numRandom = (getInteligencia()/2 * getLevel()) + numAleatorio.nextInt(num);
 		return numRandom;
 
 	}

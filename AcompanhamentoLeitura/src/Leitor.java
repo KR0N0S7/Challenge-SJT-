@@ -27,7 +27,7 @@ public class Leitor {
 	public void setEstanteLivros(List<Livro> estanteLivros) {	this.estanteLivros = estanteLivros;		}
 
 	public void adicionarLivro(Livro livro) {
-		this.estanteLivros.add(livro);
+		getEstanteLivros().add(livro);
 	}
 	
 	public void removerLivro(Livro livro) {
